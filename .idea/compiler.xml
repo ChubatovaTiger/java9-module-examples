@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="employee.service" />
+        <module name="employee.entrypoint" />
+        <module name="employee.model" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="employee.entrypoint" target="9" />
+      <module name="employee.model" target="9" />
+      <module name="employee.service" target="9" />
+      <module name="transitive" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
